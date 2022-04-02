@@ -21,19 +21,30 @@ From the table above we can see that a Convolutional Neural Networks model has t
 Let us now understand the working of a convolutional neural network.
 
 ## Working of Convolutional Neural Networks
-The important processes in a Convolutional Neural Network are as follows
+Convolutional Neural networks is a branch in Deep-learning that is found to be very effective in the field of media processing such as image recognition and audio/video recognition.
+The dimentionality of the image is reduced before it is fed to a full-connected neural networks, in such a way that all the important features in an image is retained.
+The important processes in a Convolutional Neural Network in image processing are as follows
 1. [Convolution](#convolution)  
 2. [Padding](#padding)
 3. [Pooling](#pooling) 
 4. [Flatten](#flatten)
 
-<h2 id="convolution"> Convolution  </h2>
-
+## Convolution {#convolution#}
+In the process of Convolution, a Kernel (a matrix) which is used to extract the features from the images, moves over the input image and performs dot product with the sub-region of that image. The output of Convolution is a matrix of this dot product.
+The dimensions of the image after undergoing Convolution is given by<br/>
+O=([I-K]/S)+1
+`O` stands for Output image dimension
+`I` stands for Input image dimension
+`K` stands for Kernel size
+`S` stands for Stride
 
 <h2 id="padding"> Padding  </h2>
 
 
 <h2 id="pooling"> Pooling  </h2>
 
+
 <h2 id="flatten"> Flatten  </h2>
 
+
+![1inc9c00m35q12lidqde](https://user-images.githubusercontent.com/84195790/161396010-e9877daa-1ac1-4cb6-ab9d-c54d8c021aa9.png)
