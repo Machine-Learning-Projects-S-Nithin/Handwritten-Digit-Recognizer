@@ -31,12 +31,13 @@ The important processes in a Convolutional Neural Network in image processing ar
 
 #<h2 id="convolution"> Convolution </h2>
 In the process of Convolution, a Kernel (a matrix) which is used to extract the features from the images, moves over the input image and performs dot product with the sub-region of that image. The output of Convolution is a matrix of this dot product.
+The kernel is moved across the image from left to right, top to bottom according to the number of steps given by the Stride value.
 The dimensions of the image after undergoing Convolution is given by<br/>
-O=([I-K]/S)+1
-`O` stands for Output image dimension
-`I` stands for Input image dimension
-`K` stands for Kernel size
-`S` stands for Stride
+O=([I-K]/S)+1<br/>
+`O` stands for Output image dimension<br/>
+`I` stands for Input image dimension<br/>
+`K` stands for Kernel size<br/>
+`S` stands for Stride<br/>
 
 <h2 id="padding"> Padding  </h2>
 
