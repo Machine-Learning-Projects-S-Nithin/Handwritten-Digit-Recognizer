@@ -29,7 +29,7 @@ The important processes in a Convolutional Neural Network in image processing ar
 3. [Pooling](#pooling) 
 4. [Flatten](#flatten)
 
-## Convolution {#convolution#}
+#<h2 id="convolution"> Convolution </h2>
 In the process of Convolution, a Kernel (a matrix) which is used to extract the features from the images, moves over the input image and performs dot product with the sub-region of that image. The output of Convolution is a matrix of this dot product.
 The dimensions of the image after undergoing Convolution is given by<br/>
 O=([I-K]/S)+1
